@@ -5,3 +5,36 @@ main:
     url: /tags/
   - title: "Category"
     url: /categories/
+
+
+sidebar-sample:
+  - title: "Title1"
+    children:
+      - title: "a"
+        url: /docs/Claydox-guide/
+      - title: "b"
+        url: /docs/Claydox-guide-ready-for-Claydox/
+  - title: "Title2"
+    children:
+      - title: "a"
+        url: /docs/Claydox-guide-Category-type-management/
+      - title: "b"
+        url: /docs/Claydox-guide-template-design-management/
+      - title: "c"
+        url: /docs/Claydox-guide-product-management(1)/
+      - title: "d"
+        url: /docs/Claydox-guide-print-template/
+      - title: "e"
+        url: /docs/Claydox-guide-MESH/
+      - title: "f"
+        url: /docs/Claydox-guide-product-management(2)/
+      - title: "g"
+        url: /docs/Claydox-guide-Working-list/
+      - title: "h"
+        url: /docs/Claydox-guide-Working-sheet/
+  - title: "Title3"
+    children:
+    - title: "a"
+      url: /docs/Claydox-FAQ/
+    - title: "n"
+      url: /docs/Claydox_Appendix/
