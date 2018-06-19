@@ -39,22 +39,21 @@ feof() //- checks if the “end-of-file” has been reached
 fgetc() //- read a single char froma a file.  
 ```  
 
-```PHP
+```php
 $_SERVER, $_REQUEST, $_POST // 등의 수퍼글로벌 변수들은 미리 정의되어 있다. 언제든 사용가능  
 ```  
 
-함수 밖이나 다른 곳에서 선언된 함수를 전역으로 사용하고 싶으면 $GLOBALS[‘ ’]형태로 호출한다.{: .small}
-
-
+함수 밖이나 다른 곳에서 선언된 함수를 전역으로 사용하고 싶으면 $GLOBALS[‘ ’]형태로 호출한다.
 
 -  PHP Form Validation(유효성 검증)
 
-```PHP
+```php
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 ```    
 
 - php include VS require
 
-{: .small}
- include: 삽입한 php가 없거나 문제가 있을 경우 동작을 계속한다. 파일이 없어도 진행돼야 할 때 사용  
- require: 삽입한 php가 없거나 문제가 있을 경우 동작을 멈춘다.  
+ include
+:   삽입한 php가 없거나 문제가 있을 경우 동작을 계속한다. 파일이 없어도 진행돼야 할 때 사용  
+ require
+:   삽입한 php가 없거나 문제가 있을 경우 동작을 멈춘다.  
