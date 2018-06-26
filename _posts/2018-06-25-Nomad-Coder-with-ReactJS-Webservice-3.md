@@ -8,6 +8,8 @@ author_profile: false
 sidebar:
   title: "Order List"
   nav: sidebar-sample
+tags:
+  - react
 ---
 
 
@@ -102,3 +104,15 @@ export default Movie;
 
 
 ```
+
+
+
+
+## 6-1. Ajax in React
+
+ajax(에이잭스, 아-작스 등.. 으로 읽힌다.)는 Asynchronous  Javascript ans XML의 약자로 요즘은 XML 보다는 JSON에 신경을 쓰면 된다.
+JSON은 javascript object notation의 약자 오브젝트를 자바스크립트로 작성하는 기법이다.   
+
+Fetch 덕분에 ajax를 react에 적용하기는 쉽다. 여기에 관련해서 HTTP request에 대해서도 다루어야 하지만... 시간관계상 인스타그램 풀스택 교육에서 다룬다고한다.
+우선 전송방식은 GET 방식이며 **우리는 이번 시간에 FETCH를 이용해서 URL에서 뭔가를 GET하는 방법을 배운다!**
+(URL은 API에서 가져올 것이다.)
