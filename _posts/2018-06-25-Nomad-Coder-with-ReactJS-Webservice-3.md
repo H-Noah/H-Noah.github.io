@@ -116,3 +116,109 @@ JSON은 javascript object notation의 약자 오브젝트를 자바스크립트�
 Fetch 덕분에 ajax를 react에 적용하기는 쉽다. 여기에 관련해서 HTTP request에 대해서도 다루어야 하지만... 시간관계상 인스타그램 풀스택 교육에서 다룬다고한다.
 우선 전송방식은 GET 방식이며 **우리는 이번 시간에 FETCH를 이용해서 URL에서 뭔가를 GET하는 방법을 배운다!**
 (URL은 API에서 가져올 것이다.)
+
+componentDidMount()의 내용만 바꿀 것이다.  
+
+
+```javascript
+
+class App extends Component {
+
+state = {}
+  componentDidMount(){
+    //이제 진짜 영화를 담는다!    
+    fetch('https://yts.am/api/v2/list_movies.json?sort_by=download_count');
+  }
+}  
+```
+
+그래서 ajax를 왜 쓰는데?
+:   뭔가를 불러올 때마다 새로고침 하기 싫으니까!(api 호출, 평점가져오기 등등) 또, 보이지 않는 곳에서 데이터를 다룰 수 있으니까 cool하다.
+
+원래 ajax는 url에서 불러와서 다소 복잡한 면이 있었는데 최신 자바스크립트에서 promise를 지원하며 조금 쉬워졌다. promise는 다음 강의에서 설명한다.
+
+
+## 6-2.Promises
+
+Promise is Asynchronous! 앞의 명령어가 끝나든 말든 다음 명령어가 시작한다는 뜻이다. 다른작업이 끝나길 기다리지 않고 계속 다른 작업을 예약할 수 있다는 장점이 있다. 또한,
+
+API 주소가 없어졌다고 생각해서.. 한참 찾다가. [VELOPERT.LOG](https://velopert.com/2597) 내용 중 [가짜 API](https://jsonplaceholder.typicode.com/) 가 있다는 것을 알게되었다~
+
+>그렇지만 쓸 필요 없어졌다... 멀쩡한 소스를 GIT에서 CLONE했기 때문이다.
+
+
+## 6-2.Async Await in React
+
+ promises도 배웠으니 Await, Async를 배울 차례다. Await, Async는 fecth().then().catch()를 더 분명하게 작성할 수 있게 도와주는 도구이다.
+
+애플리케이션이 크면 then()안에 then이 계속 되어 **CALLBACK HELL**(콜백지옥)을 만든다.
+
+>여담이지만 이걸 듣고나니 삼성 멀티캠퍼스에서 들었던 교육이 REACT 기반이었다는거.. 부끄러워라 열심히 공부하자.
+
+아무튼 그래서 Await, Async를 쓸거야.
+
+
+```javascript
+import React, { Component } from 'react';
+import './App.css';
+import Movie from './Movie'
+
+
+class App extends Component {
+
+state = {}
+
+//componentDidMount후에 movies라는 변수를 가진 비동기함수 _getMovies를 실행한다.
+//movies는 await모드에서 _callApi를 실행한 리턴값이다.
+  componentDidMount(){
+    this._getMovies();
+  }
+
+
+  _renderMovies = () => {
+    const movies = this.state.movies.map((movie, index) => {
+      return <Movie title={movies.title} poster={movies.title} key={index} />
+    })
+    return movies
+  }
+
+  _callApi = () => {
+
+    //fetch()는
+    //var oReq = new XMLHttpRequest();
+    //oReq.addEventListener("load", reqListener);
+    //oReq.open("GET", "http://www.example.org/example.txt");
+    //oReq.send() 를 한줄로 만들었다고 생각해라!
+
+      fetch('https://jsonplaceholder.typicode.com/posts/1')
+      .then(response => response.json())
+      .then(json => {
+        movies: json.title
+      })
+      .catch(err => console.log(err));
+      }
+
+
+       _getMovies = async () => {
+        //await:  _callApi가 성공하든 실패하든 끝나서 리턴값을 가져오길 기다리는 것!
+        const movies = await this._callApi();
+        //여기에 작성되는 코드는 윗라인이 끝나기 전에 실행되지 않는다!
+      }
+
+
+
+
+  //RENDER - 이 컴포넌트가  나에게 보여주는 것이 무엇인가 를 담고있다.
+  render() {
+    //State - 모든 컴포넌트에 속한 객체로 바뀔 때 마다 Render를 재실행한다.
+    return (
+      <div className="App">
+            {this.state.movies ? this._renderMovies() : 'Loading..'}
+      </div>
+    );
+  }
+}
+
+export default App;
+
+```
