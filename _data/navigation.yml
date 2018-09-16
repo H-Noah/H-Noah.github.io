@@ -8,33 +8,23 @@ main:
 
 
 sidebar-sample:
-  - title: "Title1"
+  - title: "개발"
     children:
-      - title: "a"
-        url: /docs/Claydox-guide/
-      - title: "b"
-        url: /docs/Claydox-guide-ready-for-Claydox/
-  - title: "Title2"
+      - title: "[강의요약]프로그라피 공통세션 -FE"
+        url: /docs/Prography-Front-End-Session
+  - title: "후기"
     children:
-      - title: "a"
-        url: /docs/Claydox-guide-Category-type-management/
-      - title: "b"
-        url: /docs/Claydox-guide-template-design-management/
-      - title: "c"
-        url: /docs/Claydox-guide-product-management(1)/
-      - title: "d"
-        url: /docs/Claydox-guide-print-template/
-      - title: "e"
-        url: /docs/Claydox-guide-MESH/
-      - title: "f"
-        url: /docs/Claydox-guide-product-management(2)/
-      - title: "g"
-        url: /docs/Claydox-guide-Working-list/
-      - title: "h"
-        url: /docs/Claydox-guide-Working-sheet/
-  - title: "Title3"
+      - title: "[실전] ReactJS로 웹 서비스 만들기 with 노마드코더 - 리뷰"
+        url: /docs/Nomad-Coder-with-ReactJS-Webservice(1)/
+      - title: "[세미나]개발자를 위한 Google 검색 노하우 - 김환규"
+        url: /docs/google-search-knowhow/
+      - title: "[요약]인사이드 자바스크립트(inside javascript)"
+        url: /docs/inside-javascript/
+      - title: "[리뷰] Test-Driven Development - kent beck"
+        url: /docs/Test-Driven%20Development-Review/
+      - title: "[요약]테스트 주도 개발(Test Driven Development)"
+        url: /docs/Test%20Driven%20Development/
+  - title: "기타"
     children:
-    - title: "a"
-      url: /docs/Claydox-FAQ/
-    - title: "n"
-      url: /docs/Claydox_Appendix/
+    - title: "[강의요약]정보통신기사 실기(1)"
+      url: /docs/Engineer-Information-Communication-Exam(1)/

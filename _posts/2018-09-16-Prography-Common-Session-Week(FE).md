@@ -142,6 +142,8 @@ enable_page_level_ads: true
     </div>
 ```
 
+> DIV 파헤치기(1) - 최상단 컴포넌트
+
 먼저 `<div class="header no-shadow">`의 세부내용을 펼쳐보자. 총 5단계의 div로 이루어져 있으며 아래 사진 부분이다. 즉, 최상단 컴포넌트를 구성한다.
 ![viewport 적용 전/후](/assets/images/18-09-16-facebook-clone-dashboard-header-no-shadow.PNG)   
 
@@ -171,6 +173,65 @@ css는 `style.css`의 `.header`과 `admin.css`의 `.no-shadow`를 적용했다.
 
 ```
 
+> DIV 파헤치기(1-2) - container-fluid
+
+아래 그림에 대한 부분이다.맨 처음에 `fluid` 단어가 오타인줄 알았다... 유동체 라는 의미인데 저렇게 구성한 이유를 잘 모르겠다.
+![18-09-16-facebook-clone-dashboard-container-fluid](/assets/images/18-09-16-facebook-clone-dashboard-container-fluid.PNG)
+
+> Q. div 구조를 저렇게 만든 이유?
+
+
+> DIV 파헤치기(1-3) - 실제 구성요소
+
+
+
+```html
+<div class="row">
+    <div class="col-sm-4">
+        <div class="logo">
+            <h1>Facebook</h1>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <ul class="header-menu pull-right">
+            <li><a href="#" class="">Requests</a></li>
+            <li><a href="#" class="">Messages</a></li>
+            <li><a href="#" class="">Notifications</a></li>
+        </ul>
+    </div>
+</div>
+```
+
+위는 실제 소스이며 아래는 각 `div`가 차지하는 영역이다.
+
+![18-09-16-facebook-clone-dashboard-row](/assets/images/18-09-16-facebook-clone-dashboard-row.PNG)    
+가장 먼저, `row div`는 로고와 `ul, li` 태그를 담고있는 컨테이너이다.
+
+> Q. div 구조를 저렇게 만든 이유?
+
+
+![18-09-16-facebook-clone-dashboard-col-sm-4](/assets/images/18-09-16-facebook-clone-dashboard-col-sm-4.PNG)   
+
+div의 크기를 정해주는 div이다..? 세션에서 배운 것과 비슷하게 GRID를 12개로 나누어 개발한 것으로 보인다.
+
+```css
+/*style.css*/
+.col-sm-4 {
+  width: 33.33333333%;
+}
+```
+
+![18-09-16-facebook-clone-dashboard-logo](/assets/images/18-09-16-facebook-clone-dashboard-logo.PNG)    
+
+다음 `logo` div 태그는 facebook 이라는 글자를 담고있다. 일반적으로 버튼으로 제작하여 클릭할 경우 홈으로 보낸다.
+
+
+![18-09-16-facebook-clone-dashboard-col-sm-8](/assets/images/18-09-16-facebook-clone-dashboard-col-sm-8.PNG)    
+
+다음 `col-sm-8` div 태그는 2/3 만큼의 width를 차지하는 div이며 3가지 버튼을 담는 컨테이너이다.
+
+
+/////////////////////////////////////////////////////////////////////////
 
 ```html
 
