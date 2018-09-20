@@ -34,6 +34,66 @@ container의 div 사이즈를 물어본이유
 ---
 - 숙제였던 세가지 레이아웃 중 2개 선택 후, 복습 겸 다시 만들어보시고
 - 복습하신 2개 작업물을 반응형으로 만들어오세요!!
+
+### 지난 숙제 복습 및 분석!
+
+<h3>**신성환멘토님**</h3>
+
+1. HTML - 반응형으로 제작
+2. 각 html 별 CSS와 전체 CSS 따로 제작  
+
+
+- hw1_1.html
+    + hw1_1.css
+    + hw1_all.css
+    + 구성: nav 하나 메인 div 하나 서브 div 셋 footer 하나
+
+- hw1_1.css
+    + .three-div-wrap
+    + 선택자로 div 따로 설정
+    + div:last-child, before 설정
+
+    > Q. display: inline-block ?
+    :  [참조](https://ofcourse.kr/css-course/display-%EC%86%8D%EC%84%B1)
+
+    > Q. 사용하지 않는 선택자 정의한 이유?
+
+
+  - hw1_2.html
+      + hw1_2.css
+      + hw1_all.css
+      + 구성:  
+      ```html
+      <div class="two-div-wrap">
+          <div></div>
+          <div class="vertical-two-div-wrap">
+              <div class="vertical-two-div">
+                  <div></div>
+                  <div></div>
+              </div>
+          </div>
+      </div>
+      ```
+
+  - hw1_2.css
+      + .three-div-wrap
+      + 선택자로 div 따로 설정
+      + div:last-child, before 설정
+
+      > Q. 사용하지 않는 선택자 정의한 이유?
+
+
+
+
+
+<h3>**강민정멘토님**</h3>
+
+
+ HTML - 그리드를 12개로 쪼개어 정확한 비율로 제작
+
+
+
+
 - HTML Form 자료를 보고 공부해오시기! [참고페이지](https://www.w3schools.com/html/html_form_elements.asp)
 - HTML Forms 파트를 정독, 저는 5번 정독하고 가겠습니다!!... 옙...
 
@@ -500,7 +560,6 @@ css는 `style.css`의 `.header`과 `admin.css`의 `.no-shadow`를 적용했다.
 > DIV 파헤치기(1-3) - 실제 구성요소
 
 
-
 ```html
 <div class="row">
     <div class="col-sm-4">
@@ -610,6 +669,8 @@ div의 크기를 정해주는 div이다..? 세션에서 배운 것과 비슷하�
             </div>
         </div>
 ```
+
+
 
 
 
