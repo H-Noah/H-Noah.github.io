@@ -32,8 +32,143 @@ container의 div 사이즈를 물어본이유
 
 ## homework2-common
 ---
+<<<<<<< HEAD
 - 숙제였던 세가지 레이아웃 중 2개 선택 후, 복습 겸 다시 만들어보시고
 - 복습하신 2개 작업물을 반응형으로 만들어오세요!!
+=======
+지난 번 숙제 복습
+레이아웃 두 개 선택 후 반응형으로 제작
+[참고](https://www.w3schools.com/html/html_responsive.asp)
+
+#### What is Responsive Web Design?
+반응형 웹 디자인(Responsive Web Design)은 웹페이지를 모든 디바이스에서 잘 보이게 해준다.
+
+같은 홈페이지더라도, 데스크탑, 스마트폰, 태블릿 등 기기에 따라 맞는 화면을 보여준다.
+
+반응형 웹 디자인은 CSS와 HTML을 사용해서, 어느 화면에서도 잘 표시될 수 있게,
+
+내용을 리사이즈, 숨김, 줄임, 늘임, 재배치 등의 동작을 수행해서, 화면에 적절히 표시한다.
+
+아래의 예시를 통해 자세히 알아보자.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Hello World</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+
+  <div class="main">
+    <h2>Lorum Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+</body>
+</html>
+```
+
+
+```html
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container w3-green">
+  <h1>W3Schools Demo</h1>
+  <p>Resize this responsive page!</p>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-third">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>It is the most populous city in the United Kingdom,
+    with a metropolitan area of over 13 million inhabitants.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+    <p>The Paris area is one of the largest population centers in Europe,
+    with more than 12 million inhabitants.</p>
+  </div>
+
+  <div class="w3-third">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+    <p>It is the center of the Greater Tokyo Area,
+    and the most populous metropolitan area in the world.</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+```
+
+>>>>>>> 9b7ae8f44e46ddb510946a0f7df08cfdb40183e9
 
 ### 지난 숙제 복습 및 분석!
 
