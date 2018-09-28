@@ -34,7 +34,7 @@ TO-DO List (~10/6)
 
 
 
-###html head부분 분석하기
+### html 원본 분석하기
 
 ```html
 <!DOCTYPE html>
@@ -48,18 +48,15 @@ TO-DO List (~10/6)
 </html>
 ```
 
+> `<html lang="en" dir="ltr">`
 
-+ 크게 볼건없고 `<html lang="en" dir="ltr">`
-
-+ 참고: 핀터레스트(디자인 레퍼런스 서치사이트)
-+ 목적: 내가 그릴 수 있는 도화지의 범위가 어디인가 (해상도와 그리드에서 답을 찾았었다.)
-+ 해상도: 해상도의 개념 설명, 해상도가 중요한 이유
-container의 div 사이즈를 물어본이유
-
+dir 속성은 열거형 속성으로 요소의 텍스트에 대한 방향성을 나타낸다.
+   - ltr, 왼쪽에서 오른쪽 방향을 의미하며, 영어와 같이 왼쪽에서 오른쪽으로 기술되는 언어에 사용됩니다
+   - rtl, 오른쪽에서 왼쪽 방향을 의미하며, 아랍어와 같이 오른쪽에서 왼쪽으로 기술되는 언어에 사용됩니다
+   - auto, 사용자 에이전트가 결정하도록 합니다. 이 방식은 요소의 내부에 있는 문자를 강한 방향성(strong directionality)을 갖는 문자를 찾을 때까지 파싱을 계속해 나가며, 찾은 방향성을 요소 전체에 적용하는 기본적인 알고리즘을 사용합니다.
 
 ```html
 <body>
-
   <form action="/action_page.php">
     <div class="container">
       <h1>새 계정 만들기</h1>
@@ -74,16 +71,43 @@ container의 div 사이즈를 물어본이유
       <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
       <hr>
       <p>계정을 생성하면 <a href="#">이용 약관 및 개인 정보 보호 정책</a>에 동의하게됩니다.</p>
-
       <button type="submit" class="registerbtn">등록하기</button>
     </div>
 
+    ```
+
+  > ` <div class="container">`  
+
+  div css에 대한 설명
+     - 을 합니다.
+
+ > ` <label for="psw-repeat"><b>Repeat Password</b></label>`  
+
+
+ for 속성은 label 요소에서 Form 컨트롤을 나타내는 요소의 id 속성과 명시적으로 연결하는데 사용됩니다.
+ - for 속성을 사용해서 폼 컨트롤을 캡션과 연결할 수 있습니다. 속성의 값은 레이블을 붙일 수 있는 폼 관련 요소의 ID여야 하고, label 요소와 같은 Document에 속해야 합니다.
+ - 이 속성은 label 요소 안에 폼 컨트롤을 나타내는 input 요소 등을 넣지 않을 때에 사용합니다.
+
+
+
+```html
     <div class="container signin">
       <p>계정이 있으신가요? 그렇다면 <a href="#">로그인하기</a></p>
     </div>
   </form>
 </body>
 ```
+
+
+> `<html lang="en" dir="ltr">`
+
+dir 속성은 열거형 속성으로 요소의 텍스트에 대한 방향성을 나타낸다.
+   - ltr, 왼쪽에서 오른쪽 방향을 의미하며, 영어와 같이 왼쪽에서 오른쪽으로 기술되는 언어에 사용됩니다
+
+
+### TO-DO-1 반응형으로 제작
+
+
 
 ## homework-private(TO-DO-2)
 
@@ -95,3 +119,19 @@ container의 div 사이즈를 물어본이유
 
 
 ## Previous(TO-DO-3)
+
+
+* {
+  box-sizing: border-box;
+}
+-----
+
+html{
+  padding: 10%;
+  margin: 10%;
+}
+body{
+  max-width: 1024px;
+  margin: 10px auto;
+}
+이거날아가면 왜 다저렇게 돼!
