@@ -6,6 +6,8 @@
    Typography
    ========================================================================== */
 
+
+
 $doc-font-size: 20 !default;
 
 /* paragraph indention */
@@ -14,8 +16,7 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$sans-serif: url(http://fonts.googleapis.com/earlyaccess/notosanskr.css) !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
@@ -29,9 +30,9 @@ $bodoni: "Bodoni MT", serif !default;
 $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
-$global-font-family: "NotoSans-Bold" !default;
-$header-font-family: "NotoSans-Bold" !default;
-$caption-font-family: "NotoSans-Bold" !default;
+$global-font-family: "C:\Windows\Fonts\Noto Sans\NotoSans-Regular.ttf" !default;
+$header-font-family: "C:\Windows\Fonts\Noto Sans\NotoSans-Regular.ttf" !default;
+$caption-font-family: "C:\Windows\Fonts\Noto Sans\NotoSans-Regular.ttf" !default;
 
 // /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px

@@ -30,7 +30,15 @@ TO-DO List (~10/6)
 
 ![homework](/assets/images/18-09-23-prograpy-common-homework-layout.png)
 
-180924 오후 7시 37분 새로운 자 전달완료
+180924 오후 7시 37분 새로운 자료 전달완료
+
+1801004 오전 11시 37분 제작완료
+
+![mine1](/assets/images/18-10-04-TO-DO-1-mine.PNG)
+![mine2](/assets/images/18-10-04-TO-DO-1-mine2.PNG)
+
+반응형,,,,으로(600px기준) 버튼이라도 변하게 제작해보았다. 자료는 [GIT](https://github.com/emperorright/prography-FE-homework/tree/master/week3/homework/TO-DO-1)에 있다.
+
 
 
 
@@ -103,6 +111,9 @@ dir 속성은 열거형 속성으로 요소의 텍스트에 대한 방향성을 
 
 dir 속성은 열거형 속성으로 요소의 텍스트에 대한 방향성을 나타낸다.
    - ltr, 왼쪽에서 오른쪽 방향을 의미하며, 영어와 같이 왼쪽에서 오른쪽으로 기술되는 언어에 사용됩니다
+
+------
+위 내용말고는 크게 공부할 것이 없었다.
 
 
 ### TO-DO-1 반응형으로 제작
