@@ -16,10 +16,10 @@ name                     :  "Jaewoo Hwang"
 # name                     : "Junho Baik"
 description              : 프론트엔드 개발, 컴퓨터 공학 지식, 음악, 독서, 영화, 경제 등 유용한 지식을 다룹니다.
 # description              : "A personal web for Junho Baik"
-url                      :  https://emperorright.github.io/
+url                      :  https://H-Noah.github.io/
 # url                      : "https://junhobaik.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/emperorright/emperorright.github.io
+repository               : https://github.com/H-Noah/H-Noah.github.io
 # repository               : "junhobaik/junhobaik.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -29,7 +29,7 @@ comments:
   provider               : "disqus"
   disqus:
     # shortname            :
-    shortname            : emperorright's BLOG
+    shortname            : H-Noah's BLOG
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
