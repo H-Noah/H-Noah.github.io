@@ -1,5 +1,5 @@
 ---
-title: "[프로젝트]SINPLY Front-End(4주차)"
+title: "[프로젝트]SINPLY Front-End"
 permalink: /docs/SINPLY(FE)
 last_modified_at: 2018-10-13T15:58:49-04:00
 toc: true
@@ -27,5 +27,12 @@ TO-DO List (~10/20)
 ![homework](/assets/images/guest-request-start-window.jpg)
 
 
+![homework2](/assets/images/guest-request-end-window.jpg)
 
-### html 원본 분석하기
+### 사진 분석
+
+가로 width: 600px 기준 반응형
+
+최상단 label
+
+
