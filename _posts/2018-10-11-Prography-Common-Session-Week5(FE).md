@@ -278,6 +278,11 @@ getDatabutton.addEventListener('click', getUserList);
 
 ### style은 src/assets/form.css에 정의하기.
 수정하여 커밋합니다.
+
+181019 추가. 너무 바쁘다.... 애니메이션만 간단하게 추가해보았다.
+
+목표: DIV를 동적으로 생성해서 ID값들을 출력해보자.
+
 {: .notice--primary}
 
 
