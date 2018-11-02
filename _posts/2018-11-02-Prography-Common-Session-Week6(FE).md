@@ -51,7 +51,7 @@ this.week(~11/03)
 
 
 
-## index.html에 있는 Form을 제거(TO-DO 1)
+## index.html에 있는 Form을 제거 및 순수 JS로 FORM 제작(TO-DO 1,2)
 
 
 ```javascript
@@ -136,3 +136,13 @@ this.week(~11/03)
 
 + CSS가 안먹어서 위쪽에 소스 다 때려박은건 안함정..
 + 시간이 정말 너무너무 없다... 이제 `app.js`에 구현되어있던 post기능과 validation기능, 데이터를 가져와서 render하는 기능을 만들어야 한다!
+
+
+
+## app.js, index.js도 순수 JS만사용? (TO-DO 3)
+
+원래 다 순수js아니었던가.... 아무튼 그래서 babel로 변환되지 않으면 브라우저가 읽지못하는 import와 export만 변경해주었다. 아래사진처럼 짜잔.
+
+![result](/assets/images/18-11-02-capture-2.PNG);
+
++ 소스도 조금 수정하고 css도 import시켜서 처리했다.
