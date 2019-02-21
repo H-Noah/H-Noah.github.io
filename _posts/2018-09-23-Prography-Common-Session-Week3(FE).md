@@ -37,7 +37,7 @@ TO-DO List (~10/6)
 ![mine1](/assets/images/18-10-04-TO-DO-1-mine.PNG)
 ![mine2](/assets/images/18-10-04-TO-DO-1-mine2.PNG)
 
-반응형,,,,으로(600px기준) 버튼이라도 변하게 제작해보았다. 자료는 [GIT](https://github.com/emperorright/prography-FE-homework/tree/master/week3/homework/TO-DO-1)에 있다.
+반응형,,,,으로(600px기준) 버튼이라도 변하게 제작해보았다. 자료는 [GIT](https://github.com/H-Noah/prography-FE-homework/tree/master/week3/homework/TO-DO-1)에 있다.
 
 
 
