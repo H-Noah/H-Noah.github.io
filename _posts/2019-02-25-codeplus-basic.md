@@ -273,3 +273,165 @@ bool prime(int a) {
 ### 브루트포스
 
 모든 경우의 수를 다 해보는 것이다. 일반적으로 문제 시간제한을 넘지 않으려면 초당(1~10억)아래의 수만 연산할 수 있다. <mark>실제로는 천만정도가 한계</mark>
+
+### 브루트포스(2309)
+
+전체경우의 수를 다 세는 것 보다는 전체합을 구한 뒤 -2명해서 100이되는 경우를 출력한다.
+
+```javascript
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <algorithm>
+
+
+using namespace std;
+
+int main(void)
+{
+	int height[9];
+	int result=0;
+	for(int i=0; i<9; i++){
+		cin >> height[i];
+		result += height[i];
+	}
+
+	for(int i=0; i<9; i++){
+		for(int j=i+1; j<9; j++){
+			if(result - height[i]-height[j] == 100) {
+				height[i] = 0;
+				height[j] = 0;
+				break;
+			}
+		}
+	}
+
+	int temp;
+	for (int i = 0; i < 9; i++) {
+		for (int j = 0; j < 9-(i+1); j++) {
+			if (height[j] > height[j+1]) {
+				temp = height[j+1];
+				height[j+1] = height[j];
+				height[j] = temp;
+			}
+		}
+	}
+
+	for(int i=2; i<9; i++){
+		cout << height[i] << endl;
+	}
+
+}
+```
+
+왜 안되는지 도저히.... 이해가안가서 일단 패스한다.
+
+고친소스는 아래와 같으며 [링크](https://kiung9085.tistory.com/15)를 참조했다.
+
+```javascript
+#include<iostream>
+using namespace std;
+#include<algorithm>
+
+int arr[10];
+int n,result = 0;
+#define MAX 987654321
+bool check = false;
+
+int main()
+{
+	for (int i = 1; i <= 9; i++)
+	{
+		cin >> arr[i];
+		result += arr[i];
+	}
+	for (int i = 1; i <= 9; i++)
+	{
+		for (int j = i+1; j <= 9; j++)
+		{
+			if ((result - arr[i] - arr[j]) == 100)
+			{
+				arr[i] = MAX;
+				arr[j] = MAX;
+				check = true;
+				break;
+			}
+		}
+		if (check)
+			break;
+	}
+	sort(arr, arr + 10);
+	for (int i = 1; i <= 7; i++)
+	{
+		if(arr[i]!=MAX)
+		cout << arr[i] << endl;
+	}
+	return 0;
+}
+
+```
+
+
+### 브루트포스(1476)
+
+신박한 방법으로 문제를 다르게 생각해서 해결!
+
+```javascript
+
+#include<iostream>
+using namespace std;
+#include<algorithm>
+
+
+int n,result = 0;
+
+int main()
+{
+	int E,S,M; //지구E, 태양S, 달M
+
+	cin >> E >> S >> M;
+
+	E -= 1;
+	S -= 1;
+	M -= 1;
+	for(int i=0;; i++){
+		if( i%15 ==E && i%28 ==S && i%19 ==M){
+			cout << i+1 << endl;
+			break;
+		}
+	}
+
+	return 0;
+}
+
+
+```
+
+
+### 브루트포스(테트로미노 14500)
+
+별로 안풀어봐도 될 것 같다.
+
+
+## N중 포문
+
+* n개 중 일부를 선택해야 하는 경우
+* 재귀호출 또는 비트마스크를 이용하면 좀 더 보기쉽고 간결하므로 잘 사용안한다.
+
+### 1,2,3 더하기(9095)
+
+정수 N을 1,2,3의 합으로 나타내는 방법의 수를 구하는 문제 
+
+별로 안풀어봐도 될 것 같다.
+
+## 순열
+
+1~N까지로 이루어진 수열...
+
+<mark>별로 쓸모없는 내용으로 판단하여 다음강의로 넘어감
+
+## 재귀 함수 사용하기
+
+내가 개인적으로 약한부분이라 강의를 들을 것.
+
+### 1,2,3 더하기(9005, 재귀함수형태)
