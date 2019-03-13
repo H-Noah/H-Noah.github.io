@@ -1,6 +1,6 @@
 ---
 title: "학습자료"
-permalink: /docs/Studying-about-Computer-Language/
+permalink: docs/Studying-about-Computer-Language/
 last_modified_at: 2018-05-30T15:58:49-04:00
 toc: true
 classes: wide

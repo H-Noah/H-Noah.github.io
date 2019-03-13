@@ -1,6 +1,6 @@
 ---
 title: "[풀이,회고]종만북001 picnic"
-permalink: /docs/problem001-picnic
+permalink: docs/problem001-picnic
 last_modified_at: 2019-02-21T17:58:49-04:00
 excerpt: "종만북 1번문제 Picnic 회고"
 toc: true

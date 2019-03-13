@@ -1,6 +1,6 @@
 ---
 title: "[강의요약]프로그라피 공통세션 - GIT"
-permalink: /docs/Prography-Common-Session/
+permalink: docs/Prography-Common-Session/
 last_modified_at: 2018-09-08T15:58:49-04:00
 toc: true
 classes: wide

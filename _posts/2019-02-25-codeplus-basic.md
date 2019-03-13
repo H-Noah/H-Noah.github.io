@@ -1,6 +1,6 @@
 ---
 title: "[강의]코드플러스 기초"
-permalink: /docs/problem001-picnic
+permalink: docs/problem001-picnic
 excerpt: "스타트링크 알고리즘 기초강의 요약본"
 last_modified_at: 2019-02-21T17:58:49-04:00
 toc: true

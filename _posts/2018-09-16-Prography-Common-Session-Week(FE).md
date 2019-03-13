@@ -1,6 +1,6 @@
 ---
 title: "[강의요약]프로그라피 공통세션 -FE"
-permalink: /docs/Prography-Front-End-Session
+permalink: docs/Prography-Front-End-Session
 last_modified_at: 2018-09-16T15:58:49-04:00
 excerpt: "프로그라피 1주차 과제이며 CSS를 건드는 방법에 대해 기록"
 toc: true

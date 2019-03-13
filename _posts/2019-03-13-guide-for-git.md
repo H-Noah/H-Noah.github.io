@@ -1,6 +1,6 @@
 ---
 title: "[번역]PRO GIT, GIT사용가이드"
-permalink: /docs/pro-git
+permalink: docs/pro-git
 last_modified_at: 2019-03-13T18:58:49-04:00
 toc: true
 excerpt: "PRO GIT 책의 내용을 번역/요약한 포스트"

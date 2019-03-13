@@ -1,6 +1,6 @@
 ---
 title: "[강의요약]정보통신기사 2017년 기출"
-permalink: /docs/Engineer-Information-Communication-Previous-Exam(2017)/
+permalink: docs/Engineer-Information-Communication-Previous-Exam(2017)/
 last_modified_at: 2018-07-06T15:58:49-04:00
 toc: true
 classes: wide

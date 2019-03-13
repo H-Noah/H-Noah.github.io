@@ -1,6 +1,6 @@
 ---
 title: "[강의요약]정보통신기사 실기(1)"
-permalink: /docs/Engineer-Information-Communication-Exam(1)/
+permalink: docs/Engineer-Information-Communication-Exam(1)/
 last_modified_at: 2018-07-04T15:58:49-04:00
 toc: true
 classes: wide

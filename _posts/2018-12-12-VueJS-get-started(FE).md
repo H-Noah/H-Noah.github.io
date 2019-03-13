@@ -1,6 +1,6 @@
 ---
 title: "[숙제]VueJS-get-started(FE)"
-permalink: /docs/VueJS-get-started(FE)
+permalink: docs/VueJS-get-started(FE)
 last_modified_at: 2018-12-12T17:58:49-04:00
 excerpt: "Vue.js 책을 참조하며 겪은 경험"
 toc: true

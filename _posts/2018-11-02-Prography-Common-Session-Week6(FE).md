@@ -1,6 +1,6 @@
 ---
 title: "[숙제]프로그라피 공통세션 -FE(7주차)"
-permalink: /docs/Prography-Front-End-Session(7)
+permalink: docs/Prography-Front-End-Session(7)
 excerpt: "프로그라피 7주차 과제이며 PR을 참조하기 바람"
 last_modified_at: 2018-11-02T17:58:49-04:00
 toc: true

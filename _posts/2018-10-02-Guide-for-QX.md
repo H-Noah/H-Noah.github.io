@@ -1,6 +1,6 @@
 ---
 title: "Qooxdoo 사용 가이드"
-permalink: /docs/Guide-For-QX/
+permalink: docs/Guide-For-QX/
 last_modified_at: 2018-10-02T15:58:49-04:00
 excerpt: "Qooxdoo 공식문서를 번역한 것입니다."
 toc: true

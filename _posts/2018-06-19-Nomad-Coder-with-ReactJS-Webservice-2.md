@@ -1,6 +1,6 @@
 ---
 title: "[실전] ReactJS로 웹 서비스 만들기 with 노마드코더 - 리뷰(2)"
-permalink: /docs/Nomad-Coder-with-ReactJS-Webservice(2)/
+permalink: docs/Nomad-Coder-with-ReactJS-Webservice(2)/
 last_modified_at: 2018-06-20T15:58:49-04:00
 toc: true
 classes: wide

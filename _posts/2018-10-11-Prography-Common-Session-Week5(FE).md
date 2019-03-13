@@ -1,6 +1,6 @@
 ---
 title: "[숙제]프로그라피 공통세션 -FE(5주차)"
-permalink: /docs/Prography-Front-End-Session(5)
+permalink: docs/Prography-Front-End-Session(5)
 excerpt: "프로그라피 5주차 과제 react 관련 자바스크립트 코드입니다."
 last_modified_at: 2018-10-11T17:58:49-04:00
 toc: true

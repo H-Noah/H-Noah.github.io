@@ -1,6 +1,6 @@
 ---
 title: "[세미나]개발자를 위한 Google 검색 노하우 - 김환규"
-permalink: /docs/google-search-knowhow/
+permalink: docs/google-search-knowhow/
 excerpt: "[출처] [세미나] 개발자를 위한 Google 검색 노하우 - 김환규 hosted by OKKY
 2018년 4월 25일 오후 7:30. 선정릉에 있는 eBrain에서 열린 '개발자를 위한 Google 검색 노하우'라는 세미나에 참석했다. 그 내용을 한번 더 정리하고, 혹시라도 도움이 될 개발자가 있을까 싶어 글을 작성한다. "
 last_modified_at: 2018-06-25T15:58:49-04:00

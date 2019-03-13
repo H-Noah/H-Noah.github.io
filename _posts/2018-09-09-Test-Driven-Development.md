@@ -1,6 +1,6 @@
 ---
 title: "[요약]테스트 주도 개발(Test Driven Development))"
-permalink: /docs/Test Driven Development/
+permalink: docs/Test Driven Development/
 excerpt: "선배님의 추천으로 읽어보게 된 책. 항상 그랬듯 목표는 남에게 설명할 수 있는 수준이 되는 것!"
 last_modified_at: 2018-09-09T11:30:49-04:00
 toc: true

@@ -1,6 +1,6 @@
 ---
 title: "[리뷰] Test-Driven Development - kent beck"
-permalink: /docs/Test-Driven Development-Review/
+permalink: docs/Test-Driven Development-Review/
 last_modified_at: 2018-07-02T15:58:49-04:00
 toc: true
 classes: wide
