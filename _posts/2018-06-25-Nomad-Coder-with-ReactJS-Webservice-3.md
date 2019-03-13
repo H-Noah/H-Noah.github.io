@@ -13,10 +13,10 @@ tags:
 ---
 
 
+[실전] ReactJS로 웹 서비스 만들기 with 노마드코더 - 리뷰(3) [1편]( /docs/Nomad-Coder-with-ReactJS-Webservice(1))과 [2편](https://H-Noah.github.io//docs/Nomad-Coder-with-ReactJS-Webservice(2)/) 을 참조하세요.. 몇편까지 가려나
+
 **주의:** 수강 후 필요하다고 생각되는 부분만 발췌한 것입니다. **설치 방법과 필자가 알고있는 내용은 포함하지 않으니** 디테일함을 원하시는 분들은 꼭 수강하시길 바랍니다.
 {: .notice--info}
-
-> [1편]( /docs/Nomad-Coder-with-ReactJS-Webservice(1))과 [2편](https://H-Noah.github.io//docs/Nomad-Coder-with-ReactJS-Webservice(2)/) 을 참조하세요.. 몇편까지 가려나
 
 ## 5-1. Dataflow with Props
 

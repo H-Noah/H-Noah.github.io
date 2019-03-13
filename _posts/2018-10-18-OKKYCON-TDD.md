@@ -2,6 +2,7 @@
 title: "[세미나]OKKYCON: 2018 TDD 제대로 알기"
 permalink: /docs/OKKYCON-TDD/
 excerpt: ""
+excerpt: "TDD에 관해 열린 세미나입니다."
 last_modified_at: 2018-10-18T15:58:49-04:00
 toc: true
 classes: wide

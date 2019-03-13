@@ -2,6 +2,7 @@
 title: "[강의요약]프로그라피 공통세션 -FE"
 permalink: /docs/Prography-Front-End-Session
 last_modified_at: 2018-09-16T15:58:49-04:00
+excerpt: "프로그라피 1주차 과제이며 CSS를 건드는 방법에 대해 기록"
 toc: true
 classes: wide
 author_profile: false
@@ -32,10 +33,8 @@ container의 div 사이즈를 물어본이유
 
 ## homework2-common
 ---
-<<<<<<< HEAD
 - 숙제였던 세가지 레이아웃 중 2개 선택 후, 복습 겸 다시 만들어보시고
 - 복습하신 2개 작업물을 반응형으로 만들어오세요!!
-=======
 지난 번 숙제 복습
 레이아웃 두 개 선택 후 반응형으로 제작
 [참고](https://www.w3schools.com/html/html_responsive.asp)
@@ -168,7 +167,6 @@ container의 div 사이즈를 물어본이유
 
 ```
 
->>>>>>> 9b7ae8f44e46ddb510946a0f7df08cfdb40183e9
 
 ### 지난 숙제 복습 및 분석!
 

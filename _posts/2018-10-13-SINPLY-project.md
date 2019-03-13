@@ -2,6 +2,7 @@
 title: "[프로젝트]SINPLY Front-End"
 permalink: /docs/SINPLY(FE)
 last_modified_at: 2018-10-13T15:58:49-04:00
+excerpt: "신청곡플레이리스트 프로젝트 관련 내용,, 부족"
 toc: true
 classes: wide
 author_profile: false

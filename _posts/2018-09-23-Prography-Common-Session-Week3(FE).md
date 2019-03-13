@@ -1,6 +1,7 @@
 ---
 title: "[강의요약]프로그라피 공통세션 -FE(3주차)"
 permalink: /docs/Prography-Front-End-Session(3)
+excerpt: "프로그라피 3주차 과제이며 반응형 웹 제작에 대한 기록"
 last_modified_at: 2018-09-23T15:58:49-04:00
 toc: true
 classes: wide

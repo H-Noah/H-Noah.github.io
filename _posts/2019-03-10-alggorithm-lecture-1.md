@@ -1,6 +1,7 @@
 ---
 title: "[강의]백준 알고리즘 1회차"
 permalink: /docs/alggorithm-lecture-1
+excerpt: "백준의 3월 알고리즘 강의 1회차 내용 요약"
 last_modified_at: 2019-03-10T17:58:49-04:00
 toc: true
 classes: wide

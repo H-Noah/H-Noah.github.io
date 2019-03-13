@@ -1,6 +1,7 @@
 ---
 title: "[강의요약]정보통신기사 학습"
 permalink: /docs/Engineer-Information-Communication-study/
+excerpt: "수도학원의 정보통신기사 강의 내용입니다."
 last_modified_at: 2018-10-10T15:58:49-04:00
 toc: true
 classes: wide

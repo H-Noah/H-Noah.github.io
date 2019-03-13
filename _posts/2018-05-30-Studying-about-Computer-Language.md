@@ -12,6 +12,8 @@ sidebar:
 
 
 
+<mark>php 함수정보</mark>에 대한 내용입니다.
+
 ---
 > PHP 학습 정보
 ---  

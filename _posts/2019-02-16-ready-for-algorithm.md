@@ -1,7 +1,8 @@
 ---
 title: "[스터디]종만북(프로그래밍 대회에서 배우는 알고리즘 전략)"
 permalink: /docs/ready-for-algorithm
-last_modified_at: 2018-11-02T17:58:49-04:00
+last_modified_at: 2019-02-16T17:58:49-04:00
+4'ㅣexcerpt: "종만북에서 필요한 내용만 요약한 글"
 toc: true
 classes: wide
 author_profile: false
