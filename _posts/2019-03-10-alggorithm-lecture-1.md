@@ -60,21 +60,17 @@ q. bfs로는되고 dfs로는 안되는 것?
 
 > DFS는 주로 재귀함수, BFS는 주로 큐로 구현
 
-```javascript
+```c++
 void dfs(int x){
-	if(정답을 찾음) {
-		정답을 찾은 처리;
-	}
-	if(불가능한 경우) return;
-	for(가능한 모든 다음 정점 y){
-		if(check[y] == false){
-			check[y] = true;
-			dfs(y);
-		}
+	
+	if(정답을 찾음) 정답을 찾은처리
+	if(check[x]) return;
+	check[x]=true;
+	if(불가능한경우) return;
+	for(int i=0; i<n; i++){
+		dfs(x);
 	}
 }
-check[시작] = true;
-dfs(시작);
 ```
 
 - BFS는 간선의 갯수가 많지 않아야 한다. (1억 미만)
