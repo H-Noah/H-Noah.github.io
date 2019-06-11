@@ -5,6 +5,8 @@ last_modified_at: 2019-06-10T15:58:49-04:00
 toc: true
 classes: wide
 author_profile: false
+excerpt: "
+<mark>한줄평(★★★)</mark>: 제목에 충실하게 넓고 **얕은** 지식을 다룬다."
 sidebar:
   title: "Order List"
   nav: sidebar-sample
@@ -16,7 +18,7 @@ tags:
 
 ![title](http://image.yes24.com/momo/TopCate1280/MidCate010/123392793.jpg){: width="400" height="800"}
 
-<mark>한줄평</mark>: 제목에 충실하게도 넓고 **얕은** 지식을 다룬다. 
+<mark>한줄평</mark>: 제목에 충실하게 넓고 **얕은** 지식을 다룬다. 
 
 평가: ★★★(보통)
 

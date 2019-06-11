@@ -2,7 +2,6 @@
 title: "[공부]컴활 1급 필기준비"
 permalink: docs/computer-expert-1
 last_modified_at: 2019-05-13T17:58:49-04:00
-excerpt: "컴활필기준비 1일차입니다."
 toc: true
 classes: wide
 author_profile: false
