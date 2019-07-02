@@ -1,8 +1,8 @@
 ---
 title: "[요약]운영체제"
-permalink: docs/computer-os
+permalink: docs/computer-db
 last_modified_at: 2019-06-27T17:58:49-04:00
-excerpt: "컴퓨터 OS에 관한 지식 중 핵심만 요약한 포스트입니다."
+excerpt: "db에 관한 지식 중 핵심만 요약한 포스트입니다."
 toc: true
 classes: wide
 author_profile: false
@@ -10,7 +10,7 @@ sidebar:
   title: "Order List"
   nav: sidebar-sample
 tags:
-  - OS
+  - Database
   - computer
 
 ---
