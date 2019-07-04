@@ -15,23 +15,6 @@ tags:
 
 ---
 
-## 질문
-
-### Q1. OSI 7계층에 대해 설명하시오.
-
-### Q2. TCP/UDP에 대해 설명/비교하시오.
-
-### Q3. TCP의 3way handshake와 4way handshake를 비교/설명하시오. (추가)
-
-### Q4. HTTP와 HTTPS에 대해 설명하고 장/단점을 비교하시오.
-
-### Q5. CORS란(추가)
-
-### Q6. GET과 POST에 대해 설명하시오. GET/POST의 쓰임을 쓰시오. 장/단점을 비교하시오.
-
-### Q7. REST와 REST API에 대해 설명하시오.
-
-
 ## 정답
 
 ### OSI 7계층
