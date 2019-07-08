@@ -1,8 +1,8 @@
 ---
-title: "[요약]정보보안기사-운영체제"
-permalink: docs/engineer-information-security(1)
-last_modified_at: 2019-07-04T17:59:49-04:00
-excerpt: "정보보안기사 대비(운영체제)"
+title: "[요약]정보보안기사-네트워크"
+permalink: docs/engineer-information-security(2)
+last_modified_at: 2019-07-04T17:56:49-04:00
+excerpt: "정보보안기사 대비(네트워크)"
 toc: true
 classes: wide
 author_profile: false
@@ -10,7 +10,7 @@ sidebar:
   title: "Order List"
   nav: sidebar-sample
 tags:
-  - os
+  - network
   - computer
 
 ---
@@ -25,7 +25,7 @@ tags:
 
 - Direct/Associate/혼합형
  
-### (중요)캐시메모리 교체알고리즘 & 74Page Fault 횟수    
+### (중요)캐시메모리 교체알고리즘 & Page Fault 횟수    
 ![FIFO-1](https://mblogthumb-phinf.pstatic.net/20120605_169/kyung778_1338902847430wA0MX_JPEG/FIFO.jpg?type=w2)
 
 * **한 프로세스에게 할당된 페이지가 가득 찬 경우, 다음 페이지를 작업하기 위해 가장 먼저 올라간 페이지를 교체한다**
@@ -174,3 +174,5 @@ tags:
 
 
 ## (거름)RAID
+
+- Claydox 
