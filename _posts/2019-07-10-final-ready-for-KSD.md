@@ -654,39 +654,8 @@ tags:
 [서브넷마스크 예제](https://tshooter.tistory.com/82)
 
 * 네트워크 서브넷마스크 문제
-  * 
 
 
-
-### 2018년 1번
-
-* SQL 작성
-
-<<<<<<< HEAD
-FROM WHERE SELECT GROUPBY HAVING 우선순위 보기
-
-### ~~2015년 3번~~
-### ~~2015년 4번~~
-
-* 출력값. (이부분도 은근히 걱정인데)
-
-### ~~2015년 5번~~
-
-빅오 세타오 오메가오
-
-### 2015년 6번
-
-정렬방법 별 시간복잡도
-
-
-
-
-
-### 2016년 7번
-
-* 최소신장트리(Minimum Spanning Tree)
--
-=======
 ### 2018년 2번
 
 * [결합도 관련 문제](https://h-noah.github.io/docs/final-ready#2016%EB%85%84-4%EB%B2%88)
@@ -752,6 +721,32 @@ FROM WHERE SELECT GROUPBY HAVING 우선순위 보기
 ### (추가)리눅스 명령어
 
   * cron
-
+    [예제참조](https://jdm.kr/blog/2)
   * chmod
->>>>>>> f70938e5734ff9b10e630b2757f0e827a7321829
+
+### 정보보안기사 관련 추가정보
+
+![problem](/assets/images/infosec-1.jpg)     
+
+![problem](/assets/images/infosec-2.jpg)     
+
+
+![problem](/assets/images/infosec-3.jpg)     
+
+
+![problem](/assets/images/infosec-4.jpg)     
+
+
+![problem](/assets/images/infosec-5.jpg)     
+
+![problem](/assets/images/infosec-6.jpg)     
+
+![problem](/assets/images/infosec-7.jpg)     
+
+![problem](/assets/images/infosec-8.jpg)     
+
+![problem](/assets/images/infosec-9.jpg)     
+
+![problem](/assets/images/infosec-10.jpg)     
+
+
