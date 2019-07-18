@@ -1,0 +1,317 @@
+---
+title: "[STUDYING]PREPARE-FOR-HF-1"
+permalink: docs/prepare-for-hf
+last_modified_at: 2019-07-16T17:56:49-04:00
+excerpt: "객관식 준비를 위해 정보처리기사 문제 오답풀이를 진행합니다."
+toc: true
+classes: wide
+author_profile: false
+sidebar:
+  title: "Order List"
+  nav: sidebar-sample
+tags:
+  - data structure
+  - software engineering
+
+---
+
+## 2017년
+
+### 금융경제상식
+
+### 전공 논술
+
+* 개인정보보호
+* 나선형모델/폭포수모델
+
+### 전공 약술
+
+* 크루스칼 MST
+* 양방향 리스트
+* 출력값
+* Page fault, thrashing
+* 이중락킹
+* 3-way handshaking
+* 모듈화, 응집도, 결합도
+* 소트 O(N)
+
+
+## 데이터베이스
+
+### 기타
+
+* 시스템 카탈로그
+  * DBMS가 스스로 생성, 유지하는 특별한 테이블의 집합체이다.
+  * 조회는 가능하지만 갱신은 불가능하다
+  * 데이터베이스 구조에 관한 메타 데이터를 포함한다.
+
+* Deque(Double Ended Queue)
+  * 스택 + 큐
+  * 입력제한(Scroll), 출력제한(Shelf)
+
+* 터미널노드
+  * `자식노드가 없는` 노드
+
+* 관계해석	
+  1. ∃: there exists
+  2. ∈: be aun element
+  3. ∀: for all
+  4. U: union of
+
+* Selection sort
+  * MIN값을 찾은 뒤 맨 앞의 값과 변경
+  * 나머지 값에서 반복
+
+* 트리 전위순회(Tree Preorder Traversal)
+  * 루트 -> 왼쪽 subtree -> 오른쪽 subtree
+
+* 트리 후위순회(Tree Postorder Traversal)
+  * 왼쪽아래 노드 -> root전까지 올라가기 -> 반복 -> 루트
+
+* VIEW
+  * 장점:
+    * 논리적 독립성 제공
+    * 데이터 접근제어로 보안
+    * 데이터 관리 쉽게    
+  * 단점:
+    * 독자적 인덱스 불가능
+    * 정의 변경 불가능
+    * 삽입, 삭제, 갱신에 제약
+
+
+### 정규화
+
+* 개체 무결성: 릴레이션에서 기본키를 구성하는 속성은 NULL 값이나 중복값을 가질 수 없음
+* 참조 무결성: FK는 NULL이거나 참조릴레이션의 기본키 값과 동일히야 함
+* 도메인 무결성: 특정 속성의 값이 그 속성이 정의된 도메인에 속한 값이어야 한다는 규정
+* 키 무결성: 하나의 테이블에는 적어도 하나의 키가 존재해야 한다는 규정
+
+* (RE)정규화
+  
+* Cardinality = record, Degree = field
+
+### 설계
+
+* DB 개념적 설계단계
+  * 트랜잭션 모델링
+
+* DB 논리적 설계단계
+  * 트랜잭션 인터페이스 설계
+  * 테이블 설계
+  * 논리적 스키마 설계
+
+### 스키마
+  * 종류
+    * 외부스키마
+    * 내부스키마
+    * 개념스키마
+
+
+
+## 전자 계산기 구조
+
+### 디스크
+  * SSD(Solid State Drive)
+  * CISC VS RISC
+    * RISC는 명령어가 간단하지만 프로그램 길이가 길다
+    * 따라서, 레지스터 갯수가 많으며 파이프라인 구현이 용이하다.
+
+### 컴퓨터구조
+
+* 스택(0주소 명령)
+* 누산기(1주소 명령)
+* 레지스터(1주소 명령)
+
+* Flynn의 컴퓨터 구조
+  * SISD(Single Instruction Multi Data)
+  * SIMD
+  * MISD
+  * MIMD
+
+* 채널
+  * 블록 다중입출력 가능
+  * 멀티플렉서 채널: 저속 여러장치 동시제어 적합
+
+* DMA 제어기
+  * 인터페이스 회로: CPU와 입/출력 장치와의 통신담당
+  * address register: 기억장치의 위치 지정을 위한 번지기억 및 전송
+  * address line: 기억장치의 위치 지정을 위한 번지기억 및 전송
+  * word count register: 전송되어야 할 워드의 수 기억
+  * data registaer: 자료,주소의 버퍼
+
+### 논리회로
+
+* 캐리(자리올림값)
+  * 반가산기: 입력 값(X,Y) 둘이 모두 1일 경우 캐리가 1이도니다 즉. X AND Y이다.
+  * 참고로 Sum의경우 X OR Y로 연산한다.
+
+* J-K 플립플롭
+  * 0 0 변화없음
+  * 0 1 0으로 리셋
+  * 1 0 1로 세트
+  * 1 1 반전
+
+* 디코더
+  * N비트를 2^N개의 출력으로 번역하는 회로(2개입력 = 4개출력)
+
+
+### 기타
+
+* 사이클스틸링 ~~(이게뭐야,, 무서워)~~
+  * DMA 제어기가 한 번에 한 데이터 워드를 전송하고 버스의 제어를 CPU에게 돌려주는 방법
+
+* Vector processor ~~(이게뭐야,, 무서워)~~
+  * PE(Processing element)라는 연산기를 사용하여 동기적 병렬 처리를 수행하는 방식
+  * = Array Processor
+
+* 베이스 레지스터 주소 지정
+  * 명령어 주소값 + Base Register으로 주소를 지정
+  * 프로그램 재배치가 용이
+  * 다중프로그래밍 기법에 많이 사용
+
+
+
+## 운영체제
+
+* 분산 운영체제
+  * 분산 시스템이 하나의 운영체제에 의해 구현
+  * 투명성, 설계복잡
+
+* Bootstrapping
+  * 커널을 주메모리에 적재하는 과정
+
+* 지역성(Locality)
+  * 프로그램이 어느 한 순간에 특정 부분을 집중적으로 참조하는 특성
+  * 시간 지역성
+    * 하나의 기억장소가 가까운 미래에도 참조될 가능성이 높은 것
+    * 순환, 스택 등이 있다
+  * 공간 지역성
+    * 프로세스 실행 시 일정 위치의 페이지를 집중 엑세스하는 것.
+
+* 분산시스템
+  * 투명성(transparency)
+    * 위치 투명성 : 사용자가 자원들의 위치를 알 필요가 없다.
+    * 이주 투명성 : 자원들을 이동하여도 사용자는 자원의 이름이나 위치를 고려할 필요가 없다.
+    * 복제 투명성 : 사용자에게 통보 없이 파일들과 자원들의 부가적인 복사를 자유롭게 할 수 있다.
+    * 병행 투명성 : 사용자들이 자원들을 자동으로 공유할 수 있다.
+    * 병렬 투명성 : 몇 개의 처리기가 사용되는지 알 필요가 없다. 
+
+* 디스크
+  * 고정헤드: rotational latency + transfer time
+  * 이동헤드: searching time + 고정헤드
+
+
+
+
+## 소프트웨어 공학
+
+### 유지보수
+  * 소프트웨어가 사용자에게 인수되어 설치된 후 발생하는 모든 공학적 작업
+    * Corrective(수정) 보수  
+      * 수정, 교정, 정정, 하자보수
+      * 테스트단계에서 발견하지 못한 오류를 수정하는 활동
+    * Adaptive(적응) 보수
+      * 환경 적응, 조정 보수
+      * 소프트웨어 life cycle 내에서 발생하는 환경의 변화를 반영하는 활동
+    * Perfective(완전화) 보수  
+      * 수정, 교정, 정정, 하자보수
+      * 테스트단계에서 발견하지 못한 오류를 수정하는 활동
+    * Preventive(예방) 보수  
+      * 소프트웨어 재공학
+      * 미래의 유지보수성, 신뢰성을 위해 미리 예방수단을 강구하는 활동
+
+### 럼바우의 객체지향 분석
+  * 객체모델링 : 객체들간의 관계를 규정
+  * 동적모델링 : 상태도를 이용하여 표현
+  * 기능모델링 : 자료흐름도를 용하여 표현
+
+### CASE(Computer-Aided Software Engineering)
+  * 소프트웨어 개발과정 중 일부를 전용소프트웨어 도구를 사용하여 `자동화`하는 것
+    * 비용, 시간 절감
+    * 품질향상
+    * life cycle 단계 연결
+    * 유지보수성 향상
+
+### DFD(Data Flow Diagram)
+  * 표현방식
+    * Process: 원
+    * Data Flow: 화살표
+    * Data Store: 두글자직선
+    * Terminator: 사각형
+
+### 소프트웨어 품질
+  * Reliability: 얼마나 정확하게 오류없이 실행하는지
+  * Portability: Migration의 쉬운 정도
+  * Correctness: 요구한 기능을 얼마나 만족하는지
+  * Efficiency: 필요한 자원의 정도
+
+
+## 데이터 통신
+
+
+
+### QAM(Quadrature Amplitude Modulation)
+  * 위상 + 진폭 변조를 합친 방식
+  * ex) 4위상 = 2bit, 2진폭 = 1bit이므로 한 번에 3비트씩 전송가능하다.
+
+### PSK(Phase Shift Keying)
+  * 반송파의 위상을 변조하여 데이터를 전송하는 방식
+  * BPSK: Binary PSK로, 2종류의 신호를 사용한다. 위상차는 180도
+  * QPSK: Quadraple PSK, 4종류의 신호를 사용, 위상차는 90도
+  
+### X.25
+  * 패킷교환망을 통한 DCE와 DTE간의 인터페이스 제공. 신뢰성 효율성이 높고 품질이 우수하다.
+
+### IP
+  * 데이터그램 구조
+    * 버전/헤더길이/서비스유형/전체길이/ID/FLAG/OFFSET/TTL/프로토콜/헤더검사/수신주소/발신주소
+
+### IPv4, IPv6
+  * IPv4 = 유멀브(Unicast, Multicast, Broadcase)
+  * IPv6 = 유멀애(Unicast, Multicast, Anycast)
+
+### RIP
+  * 벨만-포드 알고리즘을 이용하여 거리벡터 방식으로 내부 라우팅 경로를 결정하는 프로토콜
+
+### ARQ(Automatic Repeat reQuest)
+  * Go-Back-N ARQ
+    * 오류가 발생한 지점부터 모두 재전송
+  * Stop and WAIT ARQ
+    * 수신측으로부터 ACK를 받을때까지 대기하다가 전송
+  * Selective Repeat ARQ
+    * 오류가 발생한 지점만 재전송
+  
+
+### 오류제어
+  * Parity
+    * 1bit의 오류를 검사할 수 있다.
+    * 정정불가
+
+  * Hamming
+    * 1bit의 오류를 검사할 수 있다.
+    * 1비트만 정정가능
+
+### S/N
+  * 전송용량 = 대역폭 * log2(1+S/N)
+
+### 네트워크 표준
+  * IEEE 802.2: 논리링크 제어계층
+  * IEEE 802.3: CSMA/CD
+  * IEEE 802.4: 토큰버스
+  * IEEE 802.5: 토큰 링
+  * IEEE 802.11: 무선 LAN
+    
+
+
+
+![자료구조](https://wayhome25.github.io/assets/post-img/cs/data-structure.png)
+
+### 1장 자료구조와 알고리즘
+
+* 최선, 평균, 최악의 경우
+  * 최선의 경우: 의미없는 경우가 많다
+  * 평균적인 경우: 계산하기 상당히 어려움
+  * 최악의 경우: 널리 사용되며 경우에 따라 중요한 의미를 가짐
+
+    ![problem](/assets/images/prepare-for-KSD-1.PNG)
+
