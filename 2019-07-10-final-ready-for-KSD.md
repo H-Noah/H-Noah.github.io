@@ -217,8 +217,13 @@ tags:
 
 ### ~~2015년 1번~~
 
+<<<<<<< HEAD
+* demand paging, [참조](http://truemind5.blogspot.com/2017/05/15-1.html)
+  * 여러 프로세스가 메모리를 효율적으로 공유할 수 있도록 하는 기술
+=======
 * demand paging
   * 연산 시, 가상메모리에 접근하여 실제 데이터를 가져올 수 없어 **페이징이 요구될 때만 가상메모리와 물리메모리의 주소를 변환하는 기술**  
+>>>>>>> f70938e5734ff9b10e630b2757f0e827a7321829
   * 9/10 Rule에 따라 가상메모리를 활용하게 되며 이러한 논리/물리 메모리주소를 MMU를 통해 변환한다.
   * LRU = Least Recently Used, 가장 오래전에 쓰였던 페이지를 교체하면 된다.
 
@@ -649,13 +654,7 @@ tags:
 [서브넷마스크 예제](https://tshooter.tistory.com/82)
 
 * 네트워크 서브넷마스크 문제
-  * 
 
-
-
-### 2018년 1번
-
-* SQL 작성
 
 ### 2018년 2번
 
@@ -722,5 +721,32 @@ tags:
 ### (추가)리눅스 명령어
 
   * cron
-
+    [예제참조](https://jdm.kr/blog/2)
   * chmod
+
+### 정보보안기사 관련 추가정보
+
+![problem](/assets/images/infosec-1.jpg)     
+
+![problem](/assets/images/infosec-2.jpg)     
+
+
+![problem](/assets/images/infosec-3.jpg)     
+
+
+![problem](/assets/images/infosec-4.jpg)     
+
+
+![problem](/assets/images/infosec-5.jpg)     
+
+![problem](/assets/images/infosec-6.jpg)     
+
+![problem](/assets/images/infosec-7.jpg)     
+
+![problem](/assets/images/infosec-8.jpg)     
+
+![problem](/assets/images/infosec-9.jpg)     
+
+![problem](/assets/images/infosec-10.jpg)     
+
+
