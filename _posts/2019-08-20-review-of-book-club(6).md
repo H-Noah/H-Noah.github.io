@@ -1,5 +1,5 @@
 ---
-title: "[서평] 선량한 차별주의자 - 김지혜
+title: "[서평] 선량한 차별주의자 - 김지혜"
 permalink: docs/review-of-book-club(6)/
 last_modified_at: 2019-08-20T16:00:49-04:00
 toc: true

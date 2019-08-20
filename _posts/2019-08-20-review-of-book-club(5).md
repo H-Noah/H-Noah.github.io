@@ -1,5 +1,5 @@
 ---
-title: "[서평] 개인주의자 선언 - 문유석
+title: "[서평] 개인주의자 선언 - 문유석"
 permalink: docs/review-of-book-club(5)/
 last_modified_at: 2019-08-20T15:00:49-04:00
 toc: true
