@@ -64,3 +64,28 @@ tags:
 [참고사이트](http://blog.naver.com/PostView.nhn?blogId=agcho0514&logNo=221342981579&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView)
 
 * Hi, Nice to meet you Eva. my name is ~, i graduated at PNU, Pusan National University AND i majored Computer Sciense Engineering. 지난 1년간
+
+
+### 나는 세련된 영어가 좋다.
+
+* (고장났을 때) The elevator is **out of order**. i feel so bline when i think about **walking up to the 15th floor**
+
+* (휴가 때) At last, i'm having a long vacation in very long time. it makes my **heart flutter.**
+
+* (면접)Don't worry that the interviewers will see through your weaknesses and try to emphasize your strenghths as mush as you can
+
+* (면접) These days. competition is so fierce everywhere. it's difficult to survive in society today without unique abilities.
+
+* (면접)i don't think it would be a plus trying so hard to **stand out** at the interview
+
+* (GOOD, 취미) **What am i trying to say.. i really have a way with playing guitar.** haha that's awesome. **Given the chance** i'd play it.
+
+* (언제나)**it's hard to pinpoint** exactly where i travel.. i think. the best vacation in my life is jeju island.
+
+* (옛날) **i felt so relieved** that i no longer have to study every term. haha but it's wrong thinking.
+
+* (GOOD, 당황) **i've gone black** at an unexpected question.
+
+* (GOOD, 공부이야기) i hope that a dramatic reversal in life... where imagination turns into reality happens. like i acquire IH or AL grade in OPIC test LOL
+
+* (GOOD, 당황) There're a lot of people i don't know here. and they are talking to computer very passionably. I get goosebumps haha .anyway.
