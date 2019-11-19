@@ -13,6 +13,19 @@ tags:
   - review
 ---
 
+## 시작하기
+
+### Background Survey
+
+* 일경험 없음
+* 학생아님
+* 수강 후 5년 이상 지남
+* 개인주택 또는 아파트에 홀로 거주
+* 영화, 공연, 콘서트, 해변, 술집, 카페, SNS, 쇼핑
+* 음악감상
+* 운동하지 않음
+* 국내 여행
+*09
 
 
 ## 팁
@@ -65,8 +78,27 @@ tags:
 
 * Hi, Nice to meet you Eva. my name is ~, i graduated at PNU, Pusan National University AND i majored Computer Sciense Engineering. 지난 1년간
 
+## 오픽노잼
 
-### 나는 세련된 영어가 좋다.
+### 오픽외국인편 001
+
+* filters 계속써라!
+  * 음(X), 엄(O)
+  * you know
+  * i mean
+  * let me see
+
+### 짧은 문장으로 IH받기
+
+
+
+
+
+
+
+
+
+## 나는 세련된 영어가 좋다.
 
 * (고장났을 때) The elevator is **out of order**. i feel so bline when i think about **walking up to the 15th floor**
 
@@ -89,3 +121,6 @@ tags:
 * (GOOD, 공부이야기) i hope that a dramatic reversal in life... where imagination turns into reality happens. like i acquire IH or AL grade in OPIC test LOL
 
 * (GOOD, 당황) There're a lot of people i don't know here. and they are talking to computer very passionably. I get goosebumps haha .anyway.
+
+
+
