@@ -89,37 +89,5 @@ tags:
 ![no-alignment](/assets/images/19-11-26-pt5.png)
 ![no-alignment](/assets/images/19-11-27-pt6.png)
 ![no-alignment](/assets/images/19-12-03-pt7.png)
-
-
-## 정산
-
-1. 동강탐험대 529200 + 43600 + 80000
-2. 이마트 295240 + 24000
-3. 갈비탕 90000
-4. 찜방 63000
-5. 교촌 54000
-6. 기린 간식 30000
-7. 손가 간식 & 보관료 54000
---- 
-8. 강원랜드 600000(손민성 10)
-
-총 1263040 + 개인당 5만원(강원랜드)
-민관 = 19만원(126만/9 + 5만)
-왕복 650km, 톨비 2.6 
-
-### 교통비
-전국평균유가, (고급1800/10km, 가솔린/1540/10km, 디젤/1380/10km)
-조성현 (왕복 650km 톨비 2.6 / 준영추지분0.6 계산) = 75,000
- * 19만원 - 7.5만원 = 11.5만원납부
-김재형 (왕복 400km 톨비 1.3 ) = 85,000
-허길상 (왕복 400km 톨비 1.3 ) = 68,000
-황재우 (왕복 450km 톨비 1.6 ) = 78,000
-
-
-
-1.
-
-http://shopping.interpark.com/product/productInfo.do?prdNo=5526466347&uaTp=1&utm_medium=affiliate&utm_source=danawa&utm&gateTp=1
-
-
+![no-alignment](/assets/images/19-12-05-pt8.png)
 
