@@ -99,3 +99,8 @@ tags:
 ![no-alignment](/assets/images/19-12-11-pt12.png)
 ![no-alignment](/assets/images/19-12-11-pt13.png)
 
+![no-alignment](/assets/images/19-12-16-pt14.png)
+![no-alignment](/assets/images/19-12-16-pt15.png)
+![no-alignment](/assets/images/19-12-16-pt16.png)
+
+
