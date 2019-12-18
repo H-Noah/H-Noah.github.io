@@ -103,4 +103,6 @@ tags:
 ![no-alignment](/assets/images/19-12-16-pt15.png)
 ![no-alignment](/assets/images/19-12-16-pt16.png)
 
+![no-alignment](/assets/images/19-12-18-pt17.png)
+
 
