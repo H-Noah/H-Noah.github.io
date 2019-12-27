@@ -108,4 +108,7 @@ tags:
 ![no-alignment](/assets/images/19-12-23-pt18.png)
 ![no-alignment](/assets/images/19-12-23-pt19.png)
 
+![no-alignment](/assets/images/19-12-27-pt20.png)
+![no-alignment](/assets/images/19-12-27-pt21.png)
+
 
