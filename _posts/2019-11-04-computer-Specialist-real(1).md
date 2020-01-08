@@ -114,3 +114,14 @@ tags:
 ![no-alignment](/assets/images/20-01-01-pt1.png)
 ![no-alignment](/assets/images/20-01-01-pt2.png)
 ![no-alignment](/assets/images/20-01-01-pt3.png)
+
+
+![no-alignment](/assets/images/20-01-08-pt1.png)
+
+![no-alignment](/assets/images/20-01-08-pt2.png)
+
+![no-alignment](/assets/images/20-01-08-pt3.png)
+
+![no-alignment](/assets/images/20-01-08-pt4.png)
+
+![no-alignment](/assets/images/20-01-08-pt5.png)
