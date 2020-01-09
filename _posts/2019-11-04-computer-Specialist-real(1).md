@@ -125,3 +125,7 @@ tags:
 ![no-alignment](/assets/images/20-01-08-pt4.png)
 
 ![no-alignment](/assets/images/20-01-08-pt5.png)
+
+![no-alignment](/assets/images/20-01-09-pt1.png)
+![no-alignment](/assets/images/20-01-09-pt2.png)
+![no-alignment](/assets/images/20-01-09-pt3.png)
