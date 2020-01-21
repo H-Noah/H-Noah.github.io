@@ -145,3 +145,6 @@ tags:
 
 ![no-alignment](/assets/images/20-01-20-pt1.png)
 ![no-alignment](/assets/images/20-01-20-pt2.png)
+
+![no-alignment](/assets/images/20-01-21-pt1.png)
+![no-alignment](/assets/images/20-01-21-pt2.png)
