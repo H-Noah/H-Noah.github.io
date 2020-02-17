@@ -168,3 +168,6 @@ tags:
 ![no-alignment](/assets/images/20-02-13-pt1.png)
 ![no-alignment](/assets/images/20-02-13-pt2.png)
 ![no-alignment](/assets/images/20-02-13-pt3.png)
+
+![no-alignment](/assets/images/20-02-17-pt1.png)
+![no-alignment](/assets/images/20-02-17-pt2.png)
