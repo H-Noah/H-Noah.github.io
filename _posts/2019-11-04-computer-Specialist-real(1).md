@@ -187,3 +187,8 @@ tags:
 
 ![no-alignment](/assets/images/20-02-20-pt1.png)
 ![no-alignment](/assets/images/20-02-20-pt2.png)
+
+![no-alignment](/assets/images/20-02-26-pt1.png)
+![no-alignment](/assets/images/20-02-26-pt2.png)
+![no-alignment](/assets/images/20-02-26-pt3.png)
+![no-alignment](/assets/images/20-02-26-pt4.png)
