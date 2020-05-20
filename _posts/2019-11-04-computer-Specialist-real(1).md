@@ -240,3 +240,14 @@ tags:
 ![no-alignment](/assets/images/20-05-07-pt10.png)
 ![no-alignment](/assets/images/20-05-07-pt11.png)
 ![no-alignment](/assets/images/20-05-07-pt12.png)
+
+![no-alignment](/assets/images/20-05-20-pt1.png)
+![no-alignment](/assets/images/20-05-20-pt2.png)
+![no-alignment](/assets/images/20-05-20-pt3.png)
+![no-alignment](/assets/images/20-05-20-pt4.png)
+![no-alignment](/assets/images/20-05-20-pt5.png)
+![no-alignment](/assets/images/20-05-20-pt6.png)
+![no-alignment](/assets/images/20-05-20-pt7.png)
+![no-alignment](/assets/images/20-05-20-pt8.png)
+
+
