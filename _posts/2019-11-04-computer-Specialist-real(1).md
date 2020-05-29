@@ -250,4 +250,10 @@ tags:
 ![no-alignment](/assets/images/20-05-20-pt7.png)
 ![no-alignment](/assets/images/20-05-20-pt8.png)
 
-
+![no-alignment](/assets/images/20-05-29-pt1.png)
+![no-alignment](/assets/images/20-05-29-pt2.png)
+![no-alignment](/assets/images/20-05-29-pt3.png)
+![no-alignment](/assets/images/20-05-29-pt4.png)
+![no-alignment](/assets/images/20-05-29-pt5.png)
+![no-alignment](/assets/images/20-05-29-pt6.png)
+![no-alignment](/assets/images/20-05-29-pt7.png)
