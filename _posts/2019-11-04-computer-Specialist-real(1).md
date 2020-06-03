@@ -257,3 +257,9 @@ tags:
 ![no-alignment](/assets/images/20-05-29-pt5.PNG)
 ![no-alignment](/assets/images/20-05-29-pt6.PNG)
 ![no-alignment](/assets/images/20-05-29-pt7.PNG)
+
+![no-alignment](/assets/images/20-06-03-pt1.PNG)
+![no-alignment](/assets/images/20-06-03-pt2.PNG)
+![no-alignment](/assets/images/20-06-03-pt3.PNG)
+![no-alignment](/assets/images/20-06-03-pt4.PNG)
+![no-alignment](/assets/images/20-06-03-pt5.PNG)
