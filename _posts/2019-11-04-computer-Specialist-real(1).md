@@ -263,3 +263,13 @@ tags:
 ![no-alignment](/assets/images/20-06-03-pt3.PNG)
 ![no-alignment](/assets/images/20-06-03-pt4.PNG)
 ![no-alignment](/assets/images/20-06-03-pt5.PNG)
+
+![no-alignment](/assets/images/20-06-16-pt1.PNG)
+![no-alignment](/assets/images/20-06-16-pt2.PNG)
+![no-alignment](/assets/images/20-06-16-pt3.PNG)
+![no-alignment](/assets/images/20-06-16-pt4.PNG)
+![no-alignment](/assets/images/20-06-16-pt5.PNG)
+![no-alignment](/assets/images/20-06-16-pt6.PNG)
+![no-alignment](/assets/images/20-06-16-pt7.PNG)
+![no-alignment](/assets/images/20-06-16-pt8.PNG)
+![no-alignment](/assets/images/20-06-16-pt9.PNG)
